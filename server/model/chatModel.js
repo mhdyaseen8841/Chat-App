@@ -23,8 +23,11 @@ const chatModel = mongoose.Schema(
     }
 )
 
-const chat =mongoose.model("Chat",chatModel)
-export default chat
+const Chat =mongoose.model("Chat",chatModel)
+module.exports=Chat
+
+
+
 // chatName
 // isGroupChat
 // users
