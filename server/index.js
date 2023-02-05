@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 });
 app.use('/api/user', userRoutes);
 
+
 app.use(notFound)
 app.use(errorHandler)
 
